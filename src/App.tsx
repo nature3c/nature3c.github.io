@@ -29,7 +29,7 @@ const CONFIG = {
       authors: "A. Bae, L. Patel, M. Shah",
       venue: "NeurIPS",
       year: "2025",
-      link: "#",
+      link: "https://openreview.net/pdf?id=dM9EgKwtrc",
       notes:
         "We prove that adding carefully designed entropy-based noise to large language models’ outputs makes them provably un-distillable, mathematically limiting any student model from copying their knowledge.",
     },
@@ -38,7 +38,7 @@ const CONFIG = {
       authors: "A. Bae, L. Patel, S. Bhojanam",
       venue: "NeurIPS",
       year: "2025",
-      link: "#",
+      link: "https://openreview.net/pdf?id=hM2rkFHbXI",
       notes:
         "We introduce a synthetic benchmark that tests large language models on predicting the outcomes of threshold-based network dynamics, revealing scaling-dependent reasoning abilities.",
     },
