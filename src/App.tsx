@@ -3,7 +3,7 @@ import profilePic from "./assets/IMG_9463.jpg";
 
 const CONFIG = {
   name: "Andrew Bae",
-  tagline: "Network security · Cybersecurity · Mechanistic interpretability",
+  tagline: "Columbia University · Network measurement",
   location: "Illinois, USA",
   email: "abae@imsa.edu",
   links: {
