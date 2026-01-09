@@ -3,7 +3,7 @@ import profilePic from "./assets/IMG_9463.jpg";
 
 const CONFIG = {
   name: "Andrew Bae",
-  tagline: "Columbia University · Network measurement",
+  tagline: "Columbia University",
   location: "Illinois, USA",
   email: "abae@imsa.edu",
   links: {
@@ -13,7 +13,7 @@ const CONFIG = {
   },
   profileImg: profilePic,
   about:
-    "I'm Andrew Bae, a high school senior (Class of 2026) passionate about computer engineering, cybersecurity, and network research. My current work focuses on IPv6 privacy, entropy analysis, and secure Internet measurement. Beyond research, I enjoy history, golf, and football.",
+  "I'm Andrew Bae an incoming freshman at Columbia University majoring in CS and minoring in Operations Research. My current interests focus on network measurement, secure AI, and cybersecurity. Beyond academics, I enjoy playing golf and bridge.",
   publications: [
     {
       title: "Coming Soon!",
@@ -210,9 +210,9 @@ function AboutPanel({ theme }: { theme: string }) {
       <p>{CONFIG.about}</p>
       <h3>Focus</h3>
       <ul>
-        <li>Network measurement (IPv6 privacy, scanner safety)</li>
-        <li>Trustworthy ML research & open-source tooling</li>
-        <li>Mentorship and community building</li>
+        <li>Network measurement</li>
+        <li>Network security</li>
+        <li>Mechanistic Interpretability</li>
       </ul>
     </article>
   );
