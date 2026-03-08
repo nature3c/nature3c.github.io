@@ -25,6 +25,24 @@ const CONFIG = {
         "Dotting the i's and crossing the t's.",
     },
     {
+      title: "Understanding Knowledge Acquisition and Release in Language Models via Circuits",
+      authors: "K. Raja, A. Maheria, A. Bae, A. Sun",
+      venue: "ICLR",
+      year: "2026",
+      link: "https://openreview.net/attachment?id=MYgw7DBJye&name=pdf",
+      notes:
+        "We present evidence that grokking and forgetting are related through the stability of a model's circuits",
+    },
+    {
+      title: "Tensor-SAE: Structured Sparse Autoencoders for Interpretable and Efficient Image Representations",
+      authors: "T. Shastry, S. Batra, L. Patel, A. Lala, A. Bae, S. Karuturi, M. Shah, N. Shanbhag",
+      venue: "ICLR",
+      year: "2026",
+      link: "https://openreview.net/pdf?id=MmpRG8AuHY",
+      notes:
+        "We introduce Tensor-SAE, a structured sparse autoencoder that decodes through a learned bank of rank-1 tensor atoms (color × height × width).",
+    },
+    {
       title: "Un-Distillable LLMs via Entropy-Perturbed Logits",
       authors: "A. Bae, L. Patel, M. Shah",
       venue: "NeurIPS",
