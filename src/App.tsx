@@ -29,7 +29,7 @@ const CONFIG = {
       authors: "K. Raja, A. Maheria, A. Bae, A. Sun",
       venue: "ICLR",
       year: "2026",
-      link: "https://openreview.net/attachment?id=MYgw7DBJye&name=pdf",
+      link: "#",
       notes:
         "We present evidence that grokking and forgetting are related through the stability of a model's circuits",
     },
