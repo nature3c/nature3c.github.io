@@ -4,16 +4,16 @@ import profilePic from "./assets/IMG_9463.jpg";
 const CONFIG = {
   name: "Andrew Bae",
   tagline: "Columbia University",
-  location: "Illinois, USA",
-  email: "abae@imsa.edu",
+  location: "New York + Chicago",
+  email: "andrew.bae@columbia.edu",
   links: {
-    scholar: "https://scholar.google.com/citations?user=YOUR_ID",
+    scholar: "https://scholar.google.com/citations?user=tER9Yu0AAAAJ&hl=en&oi=sra",
     github: "https://github.com/nature3c",
-    linkedin: "https://www.linkedin.com/in/andrew-bae-b456362a8/",
+    linkedin: "https://www.linkedin.com/in/abae1/",
   },
   profileImg: profilePic,
   about:
-  "I'm Andrew Bae an incoming freshman at Columbia University majoring in CS and minoring in Operations Research. My current interests focus on network measurement, secure AI, and cybersecurity. Beyond academics, I enjoy playing golf and bridge.",
+  "I'm Andrew Bae an incoming freshman at Columbia University majoring in CS. My current research interests focus on networking and AI. Beyond academics, I enjoy playing golf and skiing.",
   publications: [
     {
       title: "Coming Soon!",
@@ -25,18 +25,36 @@ const CONFIG = {
         "Dotting the i's and crossing the t's.",
     },
     {
+      title: "The Symmetry Trap: Parametric Equilibria and the Welfare Cost of Architectural Monoculture",
+      authors: "S. Karuturi, K. Bukkapatnam, S. Batra, M. Shah, T. Shastry, A. Sharma, L. Patel, A. Lala, A. Bae",
+      venue: "ICML",
+      year: "2026",
+      link: "https://openreview.net/pdf?id=sh6JElv35s",
+      notes:
+        "Identically parameterized AI agents are theoretically trapped in a symmetric invariant manifold that forces convergence to suboptimal equilibria, resulting in a quantifiable \"Price of Monoculture\" welfare loss.",
+    },
+    {
+     title: "ShapeUQ: Propagating 3D Reconstruction Uncertainty Through Scientific PDE Simulations via Shape Calculus",
+      authors: "K. Bukkapatnam, S. Batra, S. Karuturi, T. Shastry, A. Sharma, A. Lala, A. Bae, L. Patel",
+      venue: "CVPR 3D4S Oral",
+      year: "2026",
+      link: "https://openreview.net/pdf?id=BO7WJiGkQl",
+      notes:
+        "ShapeUQ uses shape calculus and adjoint-based sensitivity of neural SDF reconstructions to efficiently propagate geometric uncertainty into rigorous confidence intervals for scientific PDE simulations without expensive Monte Carlo reruns.",
+    },
+    {
       title: "Understanding Knowledge Acquisition and Release in Language Models via Circuits",
       authors: "K. Raja, A. Maheria, A. Bae, A. Sun",
-      venue: "ICLR",
+      venue: "ICLR LLA",
       year: "2026",
-      link: "#",
+      link: "https://openreview.net/pdf?id=MYgw7DBJye",
       notes:
         "We present evidence that grokking and forgetting are related through the stability of a model's circuits",
     },
     {
       title: "Tensor-SAE: Structured Sparse Autoencoders for Interpretable and Efficient Image Representations",
       authors: "T. Shastry, S. Batra, L. Patel, A. Lala, A. Bae, S. Karuturi, M. Shah, N. Shanbhag",
-      venue: "ICLR",
+      venue: "ICLR GRaM",
       year: "2026",
       link: "https://openreview.net/pdf?id=MmpRG8AuHY",
       notes:
@@ -45,7 +63,7 @@ const CONFIG = {
     {
       title: "Un-Distillable LLMs via Entropy-Perturbed Logits",
       authors: "A. Bae, L. Patel, M. Shah",
-      venue: "NeurIPS",
+      venue: "NeurIPS Lock-LLM",
       year: "2025",
       link: "https://openreview.net/pdf?id=dM9EgKwtrc",
       notes:
@@ -54,7 +72,7 @@ const CONFIG = {
     {
       title: "Network Dynamics Reasoning: A Novel Benchmark for Evaluating Multi-Step Inference in Large Language Models",
       authors: "A. Bae, L. Patel, S. Bhojanam",
-      venue: "NeurIPS",
+      venue: "NeurIPS LLM Evaluation",
       year: "2025",
       link: "https://openreview.net/pdf?id=hM2rkFHbXI",
       notes:
@@ -229,6 +247,7 @@ function AboutPanel({ theme }: { theme: string }) {
       <h3>Focus</h3>
       <ul>
         <li>Network measurement</li>
+        <li>Network topology</li>
         <li>Network security</li>
         <li>Mechanistic Interpretability</li>
       </ul>
